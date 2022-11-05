@@ -1,0 +1,143 @@
+
+body {
+  font-family: Arial;
+  font-size: 12px;
+
+}
+
+h1 {
+  color: #000000;
+  font-family: Arial;
+  text-align: center;
+  margin-top: -10px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+h2 {
+  color: #000000;
+  text-align: center;
+  float: inherit;
+  margin-top: -25px;
+  margin-bottom: 10px;
+}
+
+h2.gatoNegro{
+  border: 2px solid black;
+  border-radius: 25px;
+  padding-bottom: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 25px;
+}
+
+img {
+  margin-top: -10px;
+  margin-bottom: -20px;
+  padding-bottom: -10px;
+  padding-top: -10px;
+}
+
+label{
+  font-weight: bold;
+}
+
+#tabla-min
+{
+  font-family: Arial;
+  width: 480px;
+  border-collapse: collapse;
+
+  text-align: left;
+  margin-left: -20px;
+  margin-right: -15px;
+  padding-left: -20px;
+  padding-right: -20px;
+}
+th
+{
+  font-family: Arial;
+
+  color: black;
+  /*padding: 10px 8px;*/
+
+  border-bottom: 2px solid black;
+}
+td
+{
+  font-family: Arial;
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+img.checkbox{
+  margin-bottom: 0px;
+  height: 10px;
+  width: 17px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+.checkboxt{
+  align-content: center;
+  text-align: center;
+}
+
+.bordesTotal{
+  border-width:2px;
+  border-style: solid;
+}
+
+.firma{
+  border-bottom: 0px;
+  text-align: center;
+  padding-left: 10px;
+  padding-top: 16px;
+}
+
+.numeroContrato{
+  font-family: Arial;
+  font-weight: bold;
+  right: 20px;
+  top: 90px;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 20px;
+  position: absolute;
+  padding-left: 5px;
+}
+
+.numC{
+  border-left: 2px solid black;
+  text-align: right;
+}
+
+.margen{
+  padding: -25px;
+}
+
+.palabras{
+  font-family: Arial;
+  margin-left: -20px;
+  margin-right: -15px;
+  position: relative;
+  padding-left: -20px;
+  padding-right: -20px;
+  text-align: justify;
+}
+
+.finalContrato{
+  border-bottom: 0px;
+  border-top: 0px;
+  padding-left: -5px;
+  padding-right: -5px;
+}
+
+.tablaa{
+  padding-left: -20px;
+  padding-right: -15px;
+}
+
+.telefonosPie{
+  text-align: center;
+  /*padding-left: 100px;*/
+  /*margin-left: 100px;*/
+}

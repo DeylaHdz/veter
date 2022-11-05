@@ -1,0 +1,45 @@
+.btn-footer{
+		background: #1C1C1C;
+		color: white;
+		border-color: #424242;
+		border-style: none;
+		margin: 1px;
+	}
+	.btn-footer:hover{
+		background:#DC7633; 
+	}
+
+	.link-umss{
+		color: #DC7633; 
+	}
+	.link-umss:hover{
+		color: white; 
+	}
+
+#link_menu{
+	color:#b2aaaa;
+}
+
+#slider-dent{
+		height:370px; 
+		background:;
+	}
+#img-h_b{
+		width: 7%;
+		 height: 7%;
+	}
+	
+
+@media screen and (max-width: 800px)
+{
+	#slider-dent{
+		height: 205px;
+		background: ;
+	}
+	#img-h_b{
+		height: 20%;
+		width: 20%;
+	}
+
+}
+

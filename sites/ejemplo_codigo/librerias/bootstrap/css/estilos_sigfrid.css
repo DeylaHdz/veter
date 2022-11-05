@@ -1,0 +1,254 @@
+/* ESTILOS DEL PANEL DE REGISTRO DE SIGFRID*/
+
+/* menu y configuraciones */
+
+#menu_sistema
+{
+	margin: 0px;
+	background: white;
+	margin-bottom: 1%;
+	padding: 0px;
+}
+
+.navbar{
+	margin: 0px;
+	background: ;
+	padding: 0px;
+	color:#084B8A;
+}
+
+/* LOGOTIPO*/
+
+.navbar-brand
+{ font-weight: bold;
+
+}
+
+.navbar ul li a{	
+  color:#084B8A;
+}
+
+#navegadores{
+	
+	color:#54697e;
+	transition: 1s;
+}
+
+#navegadores:focus{
+	
+	color:#54697e;
+	font-weight: bold;
+	background: #BDBDBD;
+	transition: 1s;
+}
+
+/*Panel de registro*/
+#panel_principal{
+	background: white;
+	box-shadow: 1px 1px 2px #D8D8D8;
+	margin-bottom: 3%;
+	color:#585858;
+}
+
+#titulo_panel_registro
+{
+	color:#585858;
+}
+/* Estilos de los campos de registro de sifgrid*/
+
+.form-control{
+	border-radius: 0px;
+	box-shadow: none;
+	
+}
+
+.form-control:hover{
+	border-radius: 0px;
+	box-shadow: none;
+
+}
+
+.form-control:focus{
+	border-radius: 0px;
+	outline:0px;
+	box-shadow: none;
+	border:1px solid #A4A4A4;
+
+}
+
+
+
+/* Estilos de los botones de sigfrid */
+
+.btn-default
+{  outline:0px;
+   border-radius: 0px;
+   background: #F2F2F2;
+   color:#848484;
+   border:1px solid #848484;
+}
+
+.btn-default:hover
+{  outline:0px;
+   border-radius: 0px;
+   background: #A4A4A4;
+   color:white;
+   border:1px solid #848484;
+}
+.btn-default:focus
+{  outline:0px;
+   border-radius: 0px;
+   background: #A4A4A4;
+   color:white;
+   border:1px solid #848484;
+}
+
+.btn-info
+{
+   outline:0px;
+   border-radius: 0px;
+   background: #0489B1;
+   color:white;
+   border:1px solid #086A87;
+}
+.btn-info:hover
+{ 
+   outline:0px;
+   border-radius: 0px;
+   background: #086A87;
+   color:white;
+   border:1px solid #0B4C5F;
+}
+.btn-info:focus
+{
+   outline:0px;
+   border-radius: 0px;
+   background: #086A87;
+   color:white;
+   border:1px solid #0B4C5F;
+}
+
+.btn-success
+{
+   outline:0px;
+   border-radius: 0px;
+   background: #088A68;
+   color:white;
+   border:1px solid #088A68;
+}
+.btn-success:hover
+{
+   outline:0px;
+   border-radius: 0px;
+   background: #0B614B;
+   color:white;
+   border:1px solid #0B614B;
+	
+}
+.btn-success:focus
+{
+   outline:0px;
+   border-radius: 0px;
+   background: #0B614B;
+   color:white;
+   border:1px solid #0B614B;
+}
+
+.btn-danger
+{
+   outline:0px;
+   border-radius: 0px;
+   background: #FE2E64;
+   color:white;
+   border:1px solid #FF0040;
+ 
+}
+.btn-danger:hover
+{ 
+   outline:0px;
+   border-radius: 0px;
+   background: #DF013A;
+   color:white;
+   border:1px solid #DF013A;
+	
+}
+.btn-danger:focus
+{
+   outline:0px;
+   border-radius: 0px;
+   background: #DF013A;
+   color:white;
+   border:1px solid #DF013A;
+}
+
+
+/* Estilos de los paneles de edicion */
+
+#myModal
+{
+  border-radius: 0px;
+}
+.modal-content
+{
+ border-radius: 0px;
+}
+.modal-header
+{
+	background: #0B4C5F;
+	color:white;
+}
+.close{
+	color:white;
+}
+.alert-danger
+{
+	background: #F8E0E6;
+	border-radius: 0px;
+	border:1px solid #FE2E64;
+	color:#FE2E64;
+}
+.alert-success
+{
+	background: #E0F8EC;
+	border-radius: 0px;
+	border:1px solid #0B615E;
+	color:#0B615E;
+}
+.alert-warning
+{
+	background:#F5D0A9;
+	border-radius: 0px;
+	border:1px solid #FE642E;
+	color:#FE642E;
+}
+
+/* Estilos de las tablas*/
+.table{
+	background: white;
+}
+
+.table th{
+	background: #0B4C5F;
+	color:white;
+	text-align: center;
+}
+
+.table th:hover{
+	background: #0B2F3A;
+	color:white;
+	border-bottom: 1px solid white;
+	cursor: pointer;
+	
+}
+
+.table tr{
+}
+
+.table tr:hover{
+	background: #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
+	
+}
+
+/*Estilos paginador*/
+
