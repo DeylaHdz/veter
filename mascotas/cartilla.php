@@ -143,7 +143,7 @@
         const qr = document.getElementById("qrcode");
 
         var qrcode = new QRCode(qr, {
-            text: "192.168.1.71/veter/mascotas/localizar.php?id=<?php echo $info['id']; ?>",
+            text: "https://app.utmatamoros.edu.mx/veter/mascotas/localizar.php?id=<?php echo $info['id']; ?>",
             width: 220,
             height: 220,
             colorDark : "#000000",
