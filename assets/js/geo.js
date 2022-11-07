@@ -14,5 +14,5 @@ btn_aceptar.addEventListener("click", () => {
 });
 
 btn_rechazar.addEventListener("click", () => {
-    window.location.href("/vet-er");
+    window.location.href("/veter");
 });

@@ -1,11 +1,11 @@
 <script src="https://cdn.tailwindcss.com"></script>
-<script src="/vet-er/assets/js/tw-config.js"></script>
+<script src="/veter/assets/js/tw-config.js"></script>
 
 <style type="text/tailwindcss">
     @layer utilities {
         @font-face {
             font-family: "Montserrat";
-            src: url("/vet-er/assets/fonts/Montserrat-Regular.ttf");
+            src: url("/veter/assets/fonts/Montserrat-Regular.ttf");
         }
     }
 </style>
