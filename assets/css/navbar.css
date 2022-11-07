@@ -1,0 +1,129 @@
+
+:root {
+    --p_blue: #A8D3CC;
+    --buff: #F1D488;
+    --a_brass: #CA8575;
+    --t_lavander: #894B62;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 22vh;
+    background-color: var(--t_lavander);
+}
+
+.logo img {
+    height: 14vh;
+    opacity: 90%;
+    margin: 1vw;
+}
+
+.logo img:hover {
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;   
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #FFF;
+    font-size: 1.1vw;
+}
+
+.nav-links a:hover {
+    color: var(--p_blue);
+    transition: 0.3s;
+}
+
+#login {
+    background-color: var(--buff);
+    padding: 1vw;
+    border-radius: 2vw;
+    color: var(--t_lavander);
+}
+
+#login:hover {
+    background-color: var(--p_blue);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-icon div {
+    width: 7vw;
+    height: 1.4vw;
+    background-color: #FFF;
+    margin: 1.2vw;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    /* nav {
+        display: none;
+    } */
+
+    .nav-links {
+        position: absolute;
+        right: 0;
+        height: 78vh;
+        top: 22vh;
+        background-color: #fefbf4;
+        padding-left: 4vw;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 40%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        border-left-style: solid;
+        border-width: 0.1px;
+        border-color: #66615b;
+        opacity: 0;
+    }
+
+    .nav-links a {
+        margin-top: 20vw;
+        margin-bottom: 20vw;
+        color: #b5b5b3;
+        font-size: 2.4vw;
+    }
+
+    .nav-links li {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+.nav-activate {
+    transform: translateX(0%);
+    opacity: 100%;
+}

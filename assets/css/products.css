@@ -1,0 +1,146 @@
+
+section {
+    display: flex;
+}
+
+article {
+    width: 58vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    grid-gap: 15vw;
+    row-gap: 2vh;
+}
+
+.filtro-tag {
+    padding: 4vw;
+    border-bottom-style: solid;
+    border-bottom-color: #c8cedb;
+    border-bottom-width: 0.2vw;
+    margin-bottom: 5vw;
+    display: none;
+}
+
+
+aside {
+    width: 21vw;
+    height: 100vh;
+    padding: 2vw;
+    font-family: 'Montserrat';
+    border-right-style: solid;
+    border-right-color: #c8cedb;
+    border-right-width: 0.2vw;
+}
+
+aside li {
+    list-style: none;
+    color: #a1a3a8;
+    margin-bottom: 1vw;
+}
+aside input[type="text"] {
+    width: 4vw;
+    padding: 0.4vw;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #808388;
+    border-radius: 0.5vw;
+}
+
+.product {
+    width: 20vw;
+    border-style: solid;
+    border-width: 0.01vw;
+    border-color: #F2F2F2;
+    margin: 2vw;
+    font-family: 'Montserrat';
+    -webkit-box-shadow: 0 0 1vw 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 1vw 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 1vw 0 rgba(0, 0, 0, 0.75);
+    transition: transform .2s;
+}
+
+.product:hover{
+    transform: scale(1.05);
+}
+
+.product h6 {
+    font-size: 1vw;
+    color: #66615b;
+    margin: 1.3vw;
+}
+
+.product h5 {
+    font-size: 1.3vw;
+    margin: 1.3vw;
+}
+
+.product-img {
+    height: 40vh;
+    overflow: hidden;
+    border-bottom-style: solid;
+    border-width: 0.01vw;
+    border-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+}
+
+.product-img img {
+    height: 90%;
+    margin: 1vw;
+}
+
+@media screen and (max-width:768px){
+    section {
+        flex-direction:column;
+    }
+
+    aside {
+        width: 100vw;
+        height: auto;
+        /* display: none; */
+        border-right-style: none;
+        border-bottom-style: solid;
+        border-bottom-color: #c8cedb;
+        border-bottom-width: 0.2vw;
+    }
+    
+    aside input[type="text"] {
+        width: 20vw;
+        padding: 2vw;
+    }
+
+    .filtro-tag {
+        display: block;
+    }
+
+    .filtros {
+        display: none;
+    }
+
+    article {
+        margin-left: 9vw;
+        justify-content: space-evenly;
+        /* height: 100vh; */
+        grid-gap: 20vw;
+        grid-template-columns: repeat(auto-fill, 60px);
+        row-gap: 1vh;
+    }
+
+    .product { 
+        width: 35vw;
+        margin: 2vw;
+    }
+    .product h6 {
+        font-size: 3vw;
+    }
+    .product h5 {
+        font-size: 5vw;
+    }
+    .product-img {
+        height: 25vh;
+    }
+}
