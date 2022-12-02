@@ -17,6 +17,8 @@
     </div>
 
     <ul class="md:flex md:items-center md:static absolute bg-t_lavander w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 hidden top-[100px] transition-all ease-in duration-500 font-montserrat font-bold text-[#FFF]">
+
+        <a href="https://www.facebook.com/profile.php?id=100086996102277" target="_blank" class="mr-5"><i class="fa fa-facebook-square text-xl hover:text-p_blue duration-500"></i></a>
         
         <li class="mx-4 my-6 md:my-0">
             <a href="/veter/veterinarias" class="text-xl hover:text-p_blue duration-500">VETERINARIAS</a>

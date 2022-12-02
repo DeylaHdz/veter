@@ -1,4 +1,4 @@
-<footer class="w-full p-10 flex items-center justify-between max-md:flex-col bg-[#FFF]">
+<footer class="w-full p-10 flex items-center justify-between max-md:flex-col bg-[#FFF] block">
     <a href="/veter">
         <img src="/veter/assets/img/logo.png" alt="Logo Vet-Er" class="h-20 ease-in duration-300 max-md:mb-8 hover:opacity-75 transition-300">
     </a>

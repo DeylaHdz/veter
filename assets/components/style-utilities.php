@@ -1,4 +1,7 @@
-<script src="https://cdn.tailwindcss.com"></script>
+<link rel="icon" type="image/x-icon" href="/veter/assets/img/favicon.png">
+
+
+<script src="/veter/assets/js/tailwind.js"></script>
 <script src="/veter/assets/js/tw-config.js"></script>
 
 <style type="text/tailwindcss">
