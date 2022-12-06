@@ -8,14 +8,7 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="assets/js/tw-config.js"></script>
         
-        <style type="text/tailwindcss">
-            @layer utilities {
-                @font-face {
-                    font-family: "Montserrat";
-                    src: url(assets/fonts/Montserrat-Regular.ttf);
-                }
-            }
-        </style>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
 
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -31,7 +24,7 @@
         <main>
           <div class="bg-[url('assets/img/index-bg.jpg')] w-full h-screen bg-cover bg-center">
             <div class="w-full h-screen bg-[#00000080] flex justify-center items-center">
-              <img src="assets/img/logo-index.png" alt="Logo Vet-Er" class="w-1/2 max-md:w-2/3 shadow-[#0ff]">
+              <img src="assets/img/LOGOS/VetEr-Color&White.png" alt="Logo Vet-Er" class="w-1/2 max-md:w-2/3 shadow-[#0ff]">
             </div>
           </div>
 

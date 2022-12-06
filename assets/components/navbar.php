@@ -4,7 +4,7 @@
 
         <span class="font-montserrat">
             <a href="/vet-er">
-                <img class="h-20 mr-2 opacity-80 hover:opacity-100 ease-in duration-300" src="/vet-er/assets/img/logo-white.png" alt="Logo Vet-Er" />
+                <img class="h-20 mr-2 opacity-80 hover:opacity-100 ease-in duration-300" src="/veter/assets/img/LOGOS/VetEr-white.png" alt="Logo Vet-Er" />
             </a>
         </span>
 
@@ -19,19 +19,19 @@
     <ul class="md:flex md:items-center md:static absolute bg-t_lavander w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 hidden top-[100px] transition-all ease-in duration-500 font-montserrat font-bold text-[#FFF]">
         
         <li class="mx-4 my-6 md:my-0">
-            <a href="/vet-er/veterinarias" class="text-xl hover:text-p_blue duration-500">VETERINARIAS</a>
+            <a href="/veter/veterinarias" class="text-xl hover:text-p_blue duration-500">VETERINARIAS</a>
         </li>
         <li class="mx-4 my-6 md:my-0">
-            <a href="/vet-er/adopta" class="text-xl hover:text-p_blue duration-500">ADOPTA</a>
+            <a href="/veter/adopta" class="text-xl hover:text-p_blue duration-500">ADOPTA</a>
         </li>
         <li class="mx-4 my-6 md:my-0">
-            <a href="/vet-er/planes" class="text-xl hover:text-p_blue duration-500">PLANES</a>
+            <a href="/veter/planes" class="text-xl hover:text-p_blue duration-500">PLANES</a>
         </li>
         <li class="mx-4 my-6 md:my-0">
-            <a href="/vet-er/contacto" class="text-xl hover:text-p_blue duration-500">CONTACTO</a>
+            <a href="/veter/contacto" class="text-xl hover:text-p_blue duration-500">CONTACTO</a>
         </li>
 
-        <a href="/vet-er/login" class="bg-buff text-center text-t_lavander font-montserrat font-bold duration-500 px-6 py-2 mx-4 hover:bg-p_blue hover:text-[#FFF] rounded-full text-xl">INICIAR SESIÓN</a>
+        <a href="/veter/login" class="bg-buff text-center text-t_lavander font-montserrat font-bold duration-500 px-6 py-2 mx-4 hover:bg-p_blue hover:text-[#FFF] rounded-full text-xl">INICIAR SESIÓN</a>
     </ul>
 </nav>
 
