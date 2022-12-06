@@ -17,7 +17,7 @@
           include("../assets/components/navbar.php");
         ?>
 
-        <main class="w-full h-screen grid grid-cols-1 md:grid-cols-2 justify-center p-5">
+        <main class="w-full grid grid-cols-1 md:grid-cols-2 justify-center p-5">
             <div class="max-md:w-full flex flex-col items-center justify-center md:mr-5">
                 <form class="w-full h-full rounded-lg flex flex-col justify-center bg-buff p-8 shadow-2xl max-md:mt-10">
                 <h2 class="text-4xl font-bold font-montserrat text-t_lavander mb-8 text-center">ENVIA TU MENSAJE</h2>

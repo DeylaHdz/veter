@@ -34,7 +34,7 @@
     <main class="flex justify-between w-full h-full max-md:p-[30px] md:p-20 flex-row max-[768px]:flex-col font-montserrat box-border bg-a_brass">
       <div class="flex flex-col items-center text-center text-2xl bg-buff text-t_lavander p-[30px] rounded-[20px] md:w-1/3 md:mr-10">
         <img
-          src="/vet-er/assets/files/pet-pic/<?php echo $info['profile_pic']; ?>"
+          src="../assets/files/pet-pic/<?php echo $info['profile_pic']; ?>"
           alt=""
           class="h-64 w-64 object-cover object-center rounded-full border-solid border-[#FFF] border-4 max-md:w-45 max-md:h-45"
         ></img>
@@ -143,12 +143,12 @@
         const qr = document.getElementById("qrcode");
 
         var qrcode = new QRCode(qr, {
-            text: "192.168.1.71/vet-er/mascotas/localizar.php?id=<?php echo $info['id']; ?>",
+            text: "https://app.utmatamoros.edu.mx/veter/mascotas/cartilla.php?id=<?php echo $info['id']; ?>",
             width: 220,
             height: 220,
             colorDark : "#000000",
             colorLight : "#ffffff",
-            correctLevel : QRCode.CorrectLevel.H
+            correctLevel : QRCode.CorrectLevel.L
         });
 
         const link = document.querySelector("#link");
