@@ -1,10 +1,10 @@
-<nav class="p-5 bg-t_lavander shadow md:flex md:items-center md:justify-between relative">
+<nav class="p-5 bg-emer_bluedark shadow md:flex md:items-center md:justify-between relative">
 
     <div class="flex justify-between items-center z-20">
 
         <span class="font-montserrat">
             <a href="/veter">
-                <img class="h-20 mr-2 opacity-80 hover:opacity-100 ease-in duration-300" src="/veter/assets/img/LOGOS/VetEr-white.png" alt="Logo Vet-Er" />
+                <img class="h-20 mr-2 opacity-80 hover:opacity-100 ease-in duration-300" src="assets/img/emerpet.png" alt="Logo Vet-Er" />
             </a>
         </span>
 
@@ -16,24 +16,21 @@
 
     </div>
 
-    <ul class="md:flex md:items-center md:static absolute bg-t_lavander w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 hidden top-[100px] transition-all ease-in duration-500 font-montserrat font-bold text-[#FFF]">
+    <ul class="md:flex md:items-center md:static absolute  w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 hidden top-[100px] transition-all ease-in duration-500 font-montserrat font-bold text-[#FFF]">
 
         <a href="https://www.facebook.com/profile.php?id=100086996102277" target="_blank" class="mr-5"><i class="fa fa-facebook-square text-xl hover:text-p_blue duration-500"></i></a>
         
         <li class="mx-4 my-6 md:my-0">
-            <a href="/veter/veterinarias" class="text-xl hover:text-p_blue duration-500">VETERINARIAS</a>
+            <a href="#" class="text-xl hover:text-p_blue duration-500">Citas</a>
         </li>
         <li class="mx-4 my-6 md:my-0">
-            <a href="/veter/adopta" class="text-xl hover:text-p_blue duration-500">ADOPTA</a>
+            <a href="#" class="text-xl hover:text-p_blue duration-500">Servicios</a>
         </li>
         <li class="mx-4 my-6 md:my-0">
-            <a href="/veter/planes" class="text-xl hover:text-p_blue duration-500">PLANES</a>
-        </li>
-        <li class="mx-4 my-6 md:my-0">
-            <a href="/veter/contacto" class="text-xl hover:text-p_blue duration-500">CONTACTO</a>
+            <a href="#" class="text-xl hover:text-p_blue duration-500">Productos</a>
         </li>
 
-        <a href="/veter/login" class="bg-t_lavander text-center text-[#FFF] font-montserrat font-bold duration-500 px-6 py-2 mx-4 hover:bg-buff hover:text-t_lavander rounded-full text-xl">INICIAR SESIÓN</a>
+        <a href="/veter/login" class="bg-emer_green text-center text-[#FFF] font-montserrat font-bold duration-500 px-6 py-2 mx-4 hover:bg-emer_greendark hover:text-[#FFF] rounded-full text-xl">INICIAR SESIÓN</a>
     </ul>
 </nav>
 

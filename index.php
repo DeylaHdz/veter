@@ -8,7 +8,7 @@
         
         <script src="assets/js/tailwind.js"></script>
         <script src="assets/js/tw-config.js"></script>
-        
+        <link href="assets/css/input.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
 
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
